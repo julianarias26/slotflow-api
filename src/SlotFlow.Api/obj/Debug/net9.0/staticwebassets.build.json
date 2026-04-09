@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "izP0l1b8NblvyYR3fkZiFipL/mZlY0MzCZ+z5HCuG70=",
+  "Source": "SlotFlow.Api",
+  "BasePath": "_content/SlotFlow.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
