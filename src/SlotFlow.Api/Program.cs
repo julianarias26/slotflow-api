@@ -66,7 +66,7 @@ app.UseSwaggerUI(options =>
     options.SwaggerEndpoint("/swagger/v1/swagger.json", "SlotFlow API v1");
     options.RoutePrefix = "swagger";
 });
-
+app.MapGet("/", () => Results.Redirect("/swagger"));
 var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
 builder.WebHost.UseUrls($"http://0.0.0.0:{port}");
 app.UseHttpsRedirection();
